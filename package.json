@@ -1,0 +1,24 @@
+{
+  "name": "local-require-test2",
+  "version": "0.0.0",
+  "description": "test for local-require-test module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chetandhembre/local-require-test2.git"
+  },
+  "author": "Chetan Dhembre <chetandhembre@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chetandhembre/local-require-test2/issues"
+  },
+  "homepage": "https://github.com/chetandhembre/local-require-test2",
+
+  "dependencies" : {
+     "local-require-test" : "git://github.com/chetandhembre/local-require-test.git#7f89362c6c76cf9cf10b66e68007c5763f82e02c",
+     "local-require" : "git://github.com/chetandhembre/local-require.git#cab5c825a55e18eded97f45e3b09d084eb52033d"
+   }
+}
